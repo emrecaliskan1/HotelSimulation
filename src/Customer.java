@@ -1,12 +1,13 @@
 public class Customer{
+
     private String name;
     private String surname;
     private int age;
     private String job;
 
     public Customer(){
-
     }
+
     public Customer(String name, String surname, int age , String job){
         this.name=name;
         this.surname=surname;
@@ -46,10 +47,7 @@ public class Customer{
         this.job = job;
     }
 
-
-
-    @Override
-    public String toString() {
-        return "Name: " + name + " Surname: " +surname + " age: " + age + "job: " + job;
+    public void Display() {
+        System.out.println("Name: " + name + " Surname: " +surname + " age: " + age + "job: " + job);
     }
 }

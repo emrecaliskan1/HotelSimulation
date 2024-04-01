@@ -20,9 +20,11 @@ public class Rooms {
    }
    Types type;
 
+   //Müşteriler arraylisti oluşturuldu.
    private ArrayList<Customer> customers ;
 
    public Rooms(String roomNumber,double bill, int customerCount){
+
        this.roomNumber = roomNumber;
        this.bill = bill;
        this.customerCount=customerCount;
